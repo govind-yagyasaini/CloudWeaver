@@ -1,0 +1,4 @@
+kubectl get deployment -n default (check deployments)
+kubectl get service -n default (check service)
+kubectl get pods -n default (to check the pods)
+kubectl port-forward service/<service_name> 5000:5000
